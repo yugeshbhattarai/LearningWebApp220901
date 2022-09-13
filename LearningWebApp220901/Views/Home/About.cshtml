@@ -3,35 +3,67 @@
     ViewBag.Message = "Welcome to the Learning App";
 }
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+ </head>
+<body>
+
+    <p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </p>
+    <center>
+        <font face="Roboto" size="20" color="Red">About</font><br />
+    </center>
+    <p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </p>
 
 
+    <h3>@ViewBag.Message</h3>
 
 
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+    <p>This is a Web App Designed to Teach your Kids Nepali and English Alphabets</p>
+    <p>I am building it so that my son can learn both Nepali and English</p>
+    <p>
 
+        <br />
+        <br />
+        @{
+            ViewBag.Title = "Contact";
+        }
+    <p></p>
+    <p></p>
+    <h4>@ViewBag.Title.</h4>
 
-<p>This is a Web App Designed to Teach your Kids Nepali and English Alphabets</p>
-<p>I am building it so that my son can learn both Nepali and English</p>
-<p>
+    <address>
+        Yugesh Bhattarai<br />
+        Colorado Springs, CO<br />
+        <abbr title="Phone">P:</abbr>
+        808.675.6285
+    </address>
+
+    <address>
+        <strong>Support:</strong>   <a href="mailto:yugesh.bhattarai@outlook.com">Yugesh.bhattarai@outlook.com</a><br />
+        <strong>Marketing:</strong> <a href="mailto:yugeshbhattarai@gmail.com">Yugeshbhattarai@gmail.com</a>
+    </address>
 
     <br />
     <br />
-    @{
-        ViewBag.Title = "Contact";
-    }
-<p></p>
-<p></p>
-<h4>@ViewBag.Title.</h4>
-
-<address>
-    Yugesh Bhattarai<br />
-    Colorado Springs, CO<br />
-    <abbr title="Phone">P:</abbr>
-    808.675.6285
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:yugesh.bhattarai@outlook.com">Yugesh.bhattarai@outlook.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:yugeshbhattarai@gmail.com">Yugeshbhattarai@gmail.com</a>
-</address>
+    <br />
+    <br />
+</html>
